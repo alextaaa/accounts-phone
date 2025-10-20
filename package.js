@@ -4,7 +4,7 @@ Package.describe({
 	summary: 'A login service based on mobile number and otp, For Meteor.'
 });
 
-Package.onUse(function(api) {
+Package.onUse((api) => {
 	api.versionsFrom('METEOR@3.0.2');
 	api.use('ecmascript');
 	api.use('mongo');
