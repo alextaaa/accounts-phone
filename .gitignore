@@ -1,0 +1,6 @@
+.DS_Store
+.build*
+smart.lock
+versions.json
+.versions
+.git.orig
